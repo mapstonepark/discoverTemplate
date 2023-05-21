@@ -13,13 +13,16 @@
     margin: 0 auto;
     text-align: center;
     outline: solid;
-    height: 100vh;
+    height: auto;
     max-width: 33vw;
 }
 
 .terms-and-conditions{
     background-color: var(--primary-gray);
-    font-size: x-small;
+    font-size: small;
+}
+* .terms-and-conditions{
+    padding:3em 4em;
 }
 
 h1{
@@ -44,6 +47,7 @@ button{
 
 nav{
     display:flex;
+    margin-bottom: 4em;
 }
 
 li{
