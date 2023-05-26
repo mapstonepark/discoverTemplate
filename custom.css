@@ -7,6 +7,9 @@
     font-family: 'Ubuntu', sans-serif;
 }
 
+.banner{
+    object-fit:cover;
+}
 
 .container{
     display:flex;
@@ -26,6 +29,11 @@
     padding:3em 4em;
 }
 
+.terms-and-conditions>p{
+    margin-bottom: 1rem;
+}
+
+
 h1{
     color: var(--primary-orange);
     letter-spacing: .01rem;
@@ -35,8 +43,11 @@ button{
     color:white;
     background-color: var(--primary-orange);
     border: none;
-    padding: 1rem;
+    width: 50%;
+    padding: .5rem;
+    font-weight: bold;
     margin-bottom: 3rem;
+    border-radius: 3px;
 
 }
 
@@ -44,13 +55,15 @@ button{
     display:flex;
     gap: 1rem;
     justify-content: center;
-    padding: 3rem
+    padding: 3rem;
 }
 
 nav{
     display:flex;
     margin-bottom: 4em;
 }
+
+
 
 li{
     list-style: none;
@@ -59,3 +72,8 @@ li{
 p{
     letter-spacing: .01rem;
 }
+
+/* img {
+    width: 30%;
+    object-fit: contain;
+  } */
